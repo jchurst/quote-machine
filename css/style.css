@@ -1,0 +1,82 @@
+body {
+  font-family: Calibri, serif;
+  background-image:url(http://www.hurstcreative.com/codepen/quotes/img/bg.jpg);
+}
+h1 {
+  font-family: Cambria, Georgia, serif;
+  font-size: 2em;
+  color: #000;
+  font-weight: 600;
+  text-shadow: 2px 2px #eee;
+  text-align:center;
+  margin:30px
+}
+#quoteBox {
+  margin: 0 auto;
+  border: 5px solid #810004;
+  height: 250px;
+  width: 800px;
+  border-radius: 25px;
+  background-image:url(http://www.hurstcreative.com/codepen/quotes/img/cont-bg.png);
+  color: #000000;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 1px 2px 2px 1px rgba(0,0,0,0.3);
+}
+#textBox {
+	width:100%;
+	margin:25px auto;
+}
+p#topicHere {
+  margin:45px auto;
+  font-size: 18px;
+  text-align:center;
+  font-style:italic;
+  font-weight:bold;
+}
+
+p#quoteHere{
+  text-align: center;
+  margin:20px 25px 0 25px;
+  line-height:1.8em;
+  top: 0px;
+  font-size: 20px;
+}
+
+#buttonOuterBox {
+  display: table;
+  max-width:500px;
+  margin: 30px auto;
+}
+
+.button {
+  display: inline-block;
+  max-width:250px;
+  height:40px;
+  padding:0 10px 0 10px;
+  vertical-align:middle;
+  border: 1px solid #810004;
+  background-image: url(http://www.hurstcreative.com/codepen/quotes/img/btn-bg.png);
+  background-repeat: repeat-x;
+  font-size:15px;
+  font-family: Calibri, serif;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 1px 2px 2px 1px rgba(0,0,0,0.3);
+  cursor: pointer;
+  margin:0 10px 0 10px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.fade {
+   opacity: 1;
+   transition: opacity .5s ease-in-out;
+   -moz-transition: opacity .5s ease-in-out;
+   -webkit-transition: opacity .5s ease-in-out
+}
+.fade:hover {
+   opacity: 0.5
+}
